@@ -1,0 +1,69 @@
+body {
+  background-color: #e3e3e3; 
+  font-family: Arial, sans-serif; 
+}
+.container-login {
+  max-width: 400px; 
+  margin-top: 10rem; 
+  margin-left: 40rem;
+  padding: 20px ;
+  background-color: #d7bebe; 
+  border-radius: 4rem; 
+  box-shadow: 0 4px 8px rgba(78, 77, 77, 0.1); 
+}
+
+h2 {
+  text-align: center; 
+  color: #343a40; 
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+#data{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+#info{
+margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+  color: #ffffff;
+  height: 2rem;
+  width: 10rem;
+  border: 3rem;
+  border-color: red;
+  border-radius: 2rem;
+  background-color: #007bff; 
+  border: none; 
+  margin-top: 2rem;
+  margin-left: 7.5rem;
+}
+.btn-primary:hover {
+  background-color: #00aab3;
+}
+
+
+
+/*to do page stylong strats from here
+*/
+.container-todo{
+  max-width: 400px; 
+  margin-top: 10rem; 
+  margin-left: 40rem;
+  padding: 20px ;
+  height: 20rem;
+  width: 30rem;
+  background-color: #d7bebe; 
+  border-radius: 4rem; 
+  box-shadow: 0 4px 8px rgba(78, 77, 77, 0.1); 
+}
+#logout{
+  display: flex;
+  position: absolute;
+  margin-left: 20rem;
+  margin-bottom: 5rem;
+  
+}
